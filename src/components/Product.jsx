@@ -1,21 +1,25 @@
 import React from "react";
-import AppleWatch from "../assets/apple-watch.png";
+// import AppleWatch from "../assets/apple-watch.png";
+import Training from "../assets/Training.jpg";
+import WorkShop from '../assets/Workshop.jpg';
+import Engagement from "../assets/Engagement.jpg";
 
 const Product = () => {
   return (
-    <div className="flex flex-row items-center justify-between mt-20 pl-5 pr-5">
+    <div className="flex flex-row items-center justify-between mt-10 pl-5 pr-5">
     <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
         <img
           class="p-8 rounded-t-lg"
-          src={AppleWatch}
+          src={Training}
           alt="product image"
         />
       </a>
       <div class="px-5 pb-5">
         <a href="#">
           <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-            Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+            {/* Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport */}
+            Training - 2hr
           </h5>
         </a>
         <div class="flex items-center mt-2.5 mb-5">
@@ -75,13 +79,14 @@ const Product = () => {
         </div>
         <div class="flex items-center justify-between">
           <span class="text-3xl font-bold text-gray-900 dark:text-white">
-            $599
+            $500
           </span>
           <a
-            href="https://buy.stripe.com/test_14k3e026c6gf1yM5kk"
+            href="https://buy.stripe.com/test_7sIbKw4ek6gf6T69AC"
             class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
-            Buy now
+            {/* Buy now */}
+            Book Now
           </a>
         </div>
       </div>
@@ -92,14 +97,15 @@ const Product = () => {
       <a href="#">
         <img
           class="p-8 rounded-t-lg"
-          src={AppleWatch}
+          src={WorkShop}
           alt="product image"
         />
       </a>
       <div class="px-5 pb-5">
         <a href="#">
           <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-            Apple Watch Series 6 GPS, Aluminium Case, Starlight Sport
+            {/* Apple Watch Series 6 GPS, Aluminium Case, Starlight Sport */}
+            Workshop - 1 Day
           </h5>
         </a>
         <div class="flex items-center mt-2.5 mb-5">
@@ -159,13 +165,13 @@ const Product = () => {
         </div>
         <div class="flex items-center justify-between">
           <span class="text-3xl font-bold text-gray-900 dark:text-white">
-            $499
+            $2500
           </span>
           <a
             href="https://buy.stripe.com/test_5kA29WbGM1ZZb9maEF"
             class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
-            Buy now
+            Book Now
           </a>
         </div>
       </div>
@@ -176,14 +182,15 @@ const Product = () => {
       <a href="#">
         <img
           class="p-8 rounded-t-lg"
-          src={AppleWatch}
+          src={Engagement}
           alt="product image"
         />
       </a>
       <div class="px-5 pb-5">
         <a href="#">
           <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-            Apple Watch Series 9 GPS, Aluminium Case, Starlight Sport
+            {/* Apple Watch Series 9 GPS, Aluminium Case, Starlight Sport */}
+            Engagement - 2 Weeks
           </h5>
         </a>
         <div class="flex items-center mt-2.5 mb-5">
@@ -243,13 +250,13 @@ const Product = () => {
         </div>
         <div class="flex items-center justify-between">
           <span class="text-3xl font-bold text-gray-900 dark:text-white">
-            $899
+            $15000
           </span>
           <a
-            href="https://buy.stripe.com/test_7sIbKw4ek6gf6T69AC"
+            href="https://buy.stripe.com/test_14k3e026c6gf1yM5kk"
             class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
-            Buy now
+            Book Now
           </a>
         </div>
       </div>
